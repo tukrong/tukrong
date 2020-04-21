@@ -384,8 +384,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Kkills
+# skills
 --------------------------------------------------------------*/
+
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 2rem; }
+  #about-c .about-logos img {
+    width: 50%; }
+
 .skills .progress {
   height: 50px;
   display: block;
